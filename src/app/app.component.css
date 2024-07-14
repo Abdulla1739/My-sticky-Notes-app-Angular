@@ -1,0 +1,80 @@
+.todo-app {
+    font-family: Arial, sans-serif;
+    max-width: 900px;
+    max-height: 100vh;
+    height: 90vh;
+    margin: 0 auto;
+    margin-top: 5vh;
+    padding: 20px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background: #fff;
+  }
+  
+  .add-todo {
+    display: flex;
+    margin-bottom: 40px;
+    margin-top: 50px;
+  }
+  
+  .add-todo input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px 0 0 5px;
+  }
+  
+  .add-todo button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    background: #007bff;
+    color: white;
+    cursor: pointer;
+  }
+  .add-todo button:hover {
+  
+    background: rgb(152, 152, 152) ;
+    color: #007bff;
+    cursor: pointer;
+  }
+  
+  .show-todo .item {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin-top: 20px;
+  }
+  
+  .show-todo .item.completed {
+    background: lightgreen;
+  }
+  
+  .show-todo .item p {
+    flex: 1;
+    margin: 0;
+    margin-left: 20px;
+  }
+  
+  .show-todo .item button {
+    margin-left: 10px;
+    padding: 5px 10px;
+    border: none;
+    background: red;
+    color: white;
+    cursor: pointer;
+  }
+  .show-todo .item button:hover {
+    margin-left: 10px;
+    padding: 5px 10px;
+    border: none;
+    background:grey;
+    color: red;
+    cursor: pointer;
+  }
+  
